@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html ng-app="karmatestApp">
+<head>
+  <title>Karma Test</title>
+  <link href="bootstrap.css" rel="stylesheet" />
+  <link hre="bootstrap-theme.css" rel="stylesheet" />
+</head>
+<body ng-controller="defaultCtrl">
+  <div class="panel panel-default">
+    <div class="panel-body">
+      <p>
+        Counter:{{counter}}
+      </p>
+      <p>
+        <button class="btn btn-primary" ng-click="incrementCounter()">
+          Increment
+        </button>
+      </p>
+
+    </div>
+
+  </div>
+
+  <script src="angular.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
